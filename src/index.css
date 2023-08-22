@@ -1,0 +1,9 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.task__card {
+    display: flex;
+    gap: 1em;
+}
