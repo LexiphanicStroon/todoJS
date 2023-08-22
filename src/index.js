@@ -1,4 +1,3 @@
-import createPage from "./createPage";
 import { Task } from "./task";
 import { Project } from "./project";
 import './index.css';
