@@ -1,9 +1,19 @@
-body {
+/* body {
     color: white;
     background-color: black;
+} */
+
+.container {
+    display: flex;    
+    gap: 4em;
 }
 
-.task__card {
-    display: flex;
+/* .task__card {
+    display: flex;        
     gap: 1em;
+} */
+
+.parent {
+    display: flex;
+    gap: 1em;    
 }

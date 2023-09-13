@@ -1,12 +1,15 @@
 const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   entry: {
     index: "./src/index.js",
-    page: "./src/createPage.js",
   },
   plugins: [
     new MiniCssExtractPlugin(),
+    new HtmlWebpackPlugin({
+      title: 'To Do'
+    }),
   ],
   module: {
     rules: [
